@@ -8,76 +8,45 @@
     <packaging>war</packaging>
 
     <name>customerApp</name>
-
+   
+    
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <version.javaee>8.0</version.javaee>
-        <version.jca>1.7</version.jca>
-        <version.payara>5.192</version.payara>
-        <version.microprofile>2.2</version.microprofile>
     </properties>
     
     <dependencies>
+       
+        
         <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.core</artifactId>
-            <version>2.5.2</version>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>6.2</version>
         </dependency>
+ 
         <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.asm</artifactId>
-            <version>2.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.antlr</artifactId>
-            <version>2.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.jpa</artifactId>
-            <version>2.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.jpa.jpql</artifactId>
-            <version>2.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>javax.persistence</artifactId>
-            <version>2.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.persistence</groupId>
-            <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
-            <version>2.5.2</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>${version.javaee}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.resource</groupId>
-            <artifactId>javax.resource-api</artifactId>
-            <version>${version.jca}</version>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>8.0.0</version>
             <scope>provided</scope>
         </dependency>
         
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>${version.microprofile}</version>
-            <scope>provided</scope>
+            <version>3.0</version>
             <type>pom</type>
+            <scope>provided</scope>
         </dependency>
+     
     </dependencies>
+    
+<!--    <build>
+        <finalName>customerApp</finalName>
+    </build>-->
 
     <build>
         <plugins>
@@ -101,6 +70,7 @@
                 </configuration>
             </plugin>
         </plugins>
+         <finalName>customerApp</finalName>
     </build>
 
 </project>

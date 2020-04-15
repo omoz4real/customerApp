@@ -1,6 +1,11 @@
-omos/microsystems/customerapp/CorsFilter.class
-omos/microsystems/customerapp/Customers.class
-omos/microsystems/customerapp/ApplicationConfig.class
-omos/microsystems/customerapp/CustomerEndpoint.class
-omos/microsystems/customerapp/Customers_.class
-omos/microsystems/customerapp/CustomerService.class
+omos/microsystems/customerapp/rest/ApplicationConfig.class
+omos/microsystems/customerapp/entities/Customers.class
+omos/microsystems/customerapp/json/CustomerWriter.class
+omos/microsystems/customerapp/client/microfrontend.class
+omos/microsystems/customerapp/rest/CustomerEndpoint.class
+omos/microsystems/customerapp/entities/Links.class
+omos/microsystems/customerapp/websocket/FakeEndpoint.class
+omos/microsystems/customerapp/rest/CustomerService.class
+omos/microsystems/customerapp/rest/ApplicationFacesConfig.class
+omos/microsystems/customerapp/filter/CorsFilter.class
+omos/microsystems/customerapp/client/CustomerBackingBean.class

@@ -1,0 +1,15 @@
+version: '3'
+services:
+  mysql-development:
+    image: 'mysql:8.0.17'
+    environment:
+      MYSQL_ROOT_PASSWORD: omozegie
+      MYSQL_DATABASE: customer
+    ports:
+      - '3308:3306'
+  customerapp:
+    image: customerapp
+    ports:
+      - '8080:8080'
+    volumes:
+      - '~/customerapp/deployments:/opt/payara/deployments'

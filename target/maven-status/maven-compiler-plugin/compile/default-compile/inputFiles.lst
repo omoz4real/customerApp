@@ -1,5 +1,11 @@
-/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/ApplicationConfig.java
-/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/Customers.java
-/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/CustomerService.java
-/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/CustomerEndpoint.java
-/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/CorsFilter.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/rest/ApplicationConfig.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/rest/CustomerEndpoint.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/entities/Links.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/json/CustomerWriter.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/client/CustomerBackingBean.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/websocket/FakeEndpoint.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/entities/Customers.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/rest/CustomerService.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/filter/CorsFilter.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/rest/ApplicationFacesConfig.java
+/Users/omozegieaziegbe/Development/customerApp/src/main/java/omos/microsystems/customerapp/client/microfrontend.java
